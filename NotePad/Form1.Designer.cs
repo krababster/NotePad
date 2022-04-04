@@ -295,6 +295,81 @@
             this.toolStripSeparator23 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator24 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator25 = new System.Windows.Forms.ToolStripSeparator();
+            this.кодировкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кодировкаANSIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кодировкаUT8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кодировкаUT8СBOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кодировкаUTF16ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кодировкиUTF16LEСBOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кодировкиToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.преобразоватьВANSIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.преобразоватьВUTF8ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.преобразоватьВUTF8СBOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.преобразоватьВUTF16BEСBOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.преобразоватьВUTF16LEСBOMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.арабскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.балтийскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кельтскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.кириллицаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.центральноЕвропейскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.китайскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.восточноЕвропейскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.греческийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ивритToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.японскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.корейскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.североЕвропейскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.тайскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.турецкийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.западноЕвропейскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.вьетнамскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88596ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM720ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1256ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88594ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO885913ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM775ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1257ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO885914ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88595ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.kOI8RToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.kOI8UToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.macintoshToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM855ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM866ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1251ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM852ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.big5традиционныйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gB2312упрощенныйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88592ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88597ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM737ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM869ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1253ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88598ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM862ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1255ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.shiftJISToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows949ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eUCKRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM861ИсландскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM865НордическийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tIS620ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88593ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88599ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM857ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1254ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO88591ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.iSO885915ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM850ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM858ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM860ПортугальскийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEM863ФранцузкийToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oEMUSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1252ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.windows1258ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator26 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -304,7 +379,8 @@
             this.файлToolStripMenuItem,
             this.правкаToolStripMenuItem,
             this.поискToolStripMenuItem,
-            this.видToolStripMenuItem});
+            this.видToolStripMenuItem,
+            this.кодировкиToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -2170,6 +2246,547 @@
             this.toolStripSeparator25.Name = "toolStripSeparator25";
             this.toolStripSeparator25.Size = new System.Drawing.Size(230, 6);
             // 
+            // кодировкиToolStripMenuItem
+            // 
+            this.кодировкиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.кодировкаANSIToolStripMenuItem,
+            this.кодировкаUT8ToolStripMenuItem,
+            this.кодировкаUT8СBOMToolStripMenuItem,
+            this.кодировкаUTF16ToolStripMenuItem,
+            this.кодировкиUTF16LEСBOMToolStripMenuItem,
+            this.кодировкиToolStripMenuItem1,
+            this.toolStripSeparator26,
+            this.преобразоватьВANSIToolStripMenuItem,
+            this.преобразоватьВUTF8ToolStripMenuItem,
+            this.преобразоватьВUTF8СBOMToolStripMenuItem,
+            this.преобразоватьВUTF16BEСBOMToolStripMenuItem,
+            this.преобразоватьВUTF16LEСBOMToolStripMenuItem});
+            this.кодировкиToolStripMenuItem.Name = "кодировкиToolStripMenuItem";
+            this.кодировкиToolStripMenuItem.Size = new System.Drawing.Size(79, 20);
+            this.кодировкиToolStripMenuItem.Text = "Кодировки";
+            // 
+            // кодировкаANSIToolStripMenuItem
+            // 
+            this.кодировкаANSIToolStripMenuItem.Name = "кодировкаANSIToolStripMenuItem";
+            this.кодировкаANSIToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.кодировкаANSIToolStripMenuItem.Text = "Кодировка ANSI";
+            // 
+            // кодировкаUT8ToolStripMenuItem
+            // 
+            this.кодировкаUT8ToolStripMenuItem.Name = "кодировкаUT8ToolStripMenuItem";
+            this.кодировкаUT8ToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.кодировкаUT8ToolStripMenuItem.Text = "Кодировка UTF-8";
+            // 
+            // кодировкаUT8СBOMToolStripMenuItem
+            // 
+            this.кодировкаUT8СBOMToolStripMenuItem.Name = "кодировкаUT8СBOMToolStripMenuItem";
+            this.кодировкаUT8СBOMToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.кодировкаUT8СBOMToolStripMenuItem.Text = "Кодировка UTF-8 с BOM";
+            // 
+            // кодировкаUTF16ToolStripMenuItem
+            // 
+            this.кодировкаUTF16ToolStripMenuItem.Name = "кодировкаUTF16ToolStripMenuItem";
+            this.кодировкаUTF16ToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.кодировкаUTF16ToolStripMenuItem.Text = "Кодировка UTF-16 BE с BOM";
+            // 
+            // кодировкиUTF16LEСBOMToolStripMenuItem
+            // 
+            this.кодировкиUTF16LEСBOMToolStripMenuItem.Name = "кодировкиUTF16LEСBOMToolStripMenuItem";
+            this.кодировкиUTF16LEСBOMToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.кодировкиUTF16LEСBOMToolStripMenuItem.Text = "Кодировки UTF-16 LE с BOM";
+            // 
+            // кодировкиToolStripMenuItem1
+            // 
+            this.кодировкиToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.арабскийToolStripMenuItem,
+            this.балтийскийToolStripMenuItem,
+            this.кельтскийToolStripMenuItem,
+            this.кириллицаToolStripMenuItem,
+            this.центральноЕвропейскийToolStripMenuItem,
+            this.китайскийToolStripMenuItem,
+            this.восточноЕвропейскийToolStripMenuItem,
+            this.греческийToolStripMenuItem,
+            this.ивритToolStripMenuItem,
+            this.японскийToolStripMenuItem,
+            this.корейскийToolStripMenuItem,
+            this.североЕвропейскийToolStripMenuItem,
+            this.тайскийToolStripMenuItem,
+            this.турецкийToolStripMenuItem,
+            this.западноЕвропейскийToolStripMenuItem,
+            this.вьетнамскийToolStripMenuItem});
+            this.кодировкиToolStripMenuItem1.Name = "кодировкиToolStripMenuItem1";
+            this.кодировкиToolStripMenuItem1.Size = new System.Drawing.Size(262, 22);
+            this.кодировкиToolStripMenuItem1.Text = "Кодировки";
+            // 
+            // преобразоватьВANSIToolStripMenuItem
+            // 
+            this.преобразоватьВANSIToolStripMenuItem.Name = "преобразоватьВANSIToolStripMenuItem";
+            this.преобразоватьВANSIToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.преобразоватьВANSIToolStripMenuItem.Text = "Преобразовать в ANSI";
+            // 
+            // преобразоватьВUTF8ToolStripMenuItem
+            // 
+            this.преобразоватьВUTF8ToolStripMenuItem.Name = "преобразоватьВUTF8ToolStripMenuItem";
+            this.преобразоватьВUTF8ToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.преобразоватьВUTF8ToolStripMenuItem.Text = "Преобразовать в UTF-8";
+            // 
+            // преобразоватьВUTF8СBOMToolStripMenuItem
+            // 
+            this.преобразоватьВUTF8СBOMToolStripMenuItem.Name = "преобразоватьВUTF8СBOMToolStripMenuItem";
+            this.преобразоватьВUTF8СBOMToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.преобразоватьВUTF8СBOMToolStripMenuItem.Text = "Преобразовать в UTF-8 с BOM";
+            // 
+            // преобразоватьВUTF16BEСBOMToolStripMenuItem
+            // 
+            this.преобразоватьВUTF16BEСBOMToolStripMenuItem.Name = "преобразоватьВUTF16BEСBOMToolStripMenuItem";
+            this.преобразоватьВUTF16BEСBOMToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.преобразоватьВUTF16BEСBOMToolStripMenuItem.Text = "Преобразовать в UTF-16 BE с BOM";
+            // 
+            // преобразоватьВUTF16LEСBOMToolStripMenuItem
+            // 
+            this.преобразоватьВUTF16LEСBOMToolStripMenuItem.Name = "преобразоватьВUTF16LEСBOMToolStripMenuItem";
+            this.преобразоватьВUTF16LEСBOMToolStripMenuItem.Size = new System.Drawing.Size(262, 22);
+            this.преобразоватьВUTF16LEСBOMToolStripMenuItem.Text = "Преобразовать в UTF-16 LE с BOM";
+            // 
+            // арабскийToolStripMenuItem
+            // 
+            this.арабскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88596ToolStripMenuItem,
+            this.oEM720ToolStripMenuItem,
+            this.windows1256ToolStripMenuItem});
+            this.арабскийToolStripMenuItem.Name = "арабскийToolStripMenuItem";
+            this.арабскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.арабскийToolStripMenuItem.Text = "Арабский ";
+            // 
+            // балтийскийToolStripMenuItem
+            // 
+            this.балтийскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88594ToolStripMenuItem,
+            this.iSO885913ToolStripMenuItem,
+            this.oEM775ToolStripMenuItem,
+            this.windows1257ToolStripMenuItem});
+            this.балтийскийToolStripMenuItem.Name = "балтийскийToolStripMenuItem";
+            this.балтийскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.балтийскийToolStripMenuItem.Text = "Балтийский";
+            // 
+            // кельтскийToolStripMenuItem
+            // 
+            this.кельтскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO885914ToolStripMenuItem});
+            this.кельтскийToolStripMenuItem.Name = "кельтскийToolStripMenuItem";
+            this.кельтскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.кельтскийToolStripMenuItem.Text = "Кельтский";
+            // 
+            // кириллицаToolStripMenuItem
+            // 
+            this.кириллицаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88595ToolStripMenuItem1,
+            this.kOI8RToolStripMenuItem1,
+            this.kOI8UToolStripMenuItem,
+            this.macintoshToolStripMenuItem1,
+            this.oEM855ToolStripMenuItem1,
+            this.oEM866ToolStripMenuItem1,
+            this.windows1251ToolStripMenuItem1});
+            this.кириллицаToolStripMenuItem.Name = "кириллицаToolStripMenuItem";
+            this.кириллицаToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.кириллицаToolStripMenuItem.Text = "Кириллица";
+            // 
+            // центральноЕвропейскийToolStripMenuItem
+            // 
+            this.центральноЕвропейскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.oEM852ToolStripMenuItem,
+            this.windowsToolStripMenuItem});
+            this.центральноЕвропейскийToolStripMenuItem.Name = "центральноЕвропейскийToolStripMenuItem";
+            this.центральноЕвропейскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.центральноЕвропейскийToolStripMenuItem.Text = "Центрально-Европейский";
+            // 
+            // китайскийToolStripMenuItem
+            // 
+            this.китайскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.big5традиционныйToolStripMenuItem,
+            this.gB2312упрощенныйToolStripMenuItem});
+            this.китайскийToolStripMenuItem.Name = "китайскийToolStripMenuItem";
+            this.китайскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.китайскийToolStripMenuItem.Text = "Китайский";
+            // 
+            // восточноЕвропейскийToolStripMenuItem
+            // 
+            this.восточноЕвропейскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88592ToolStripMenuItem});
+            this.восточноЕвропейскийToolStripMenuItem.Name = "восточноЕвропейскийToolStripMenuItem";
+            this.восточноЕвропейскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.восточноЕвропейскийToolStripMenuItem.Text = "Восточно-Европейский";
+            // 
+            // греческийToolStripMenuItem
+            // 
+            this.греческийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88597ToolStripMenuItem,
+            this.oEM737ToolStripMenuItem,
+            this.oEM869ToolStripMenuItem,
+            this.windows1253ToolStripMenuItem});
+            this.греческийToolStripMenuItem.Name = "греческийToolStripMenuItem";
+            this.греческийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.греческийToolStripMenuItem.Text = "Греческий";
+            // 
+            // ивритToolStripMenuItem
+            // 
+            this.ивритToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88598ToolStripMenuItem,
+            this.oEM862ToolStripMenuItem,
+            this.windows1255ToolStripMenuItem});
+            this.ивритToolStripMenuItem.Name = "ивритToolStripMenuItem";
+            this.ивритToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.ивритToolStripMenuItem.Text = "Иврит";
+            // 
+            // японскийToolStripMenuItem
+            // 
+            this.японскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.shiftJISToolStripMenuItem});
+            this.японскийToolStripMenuItem.Name = "японскийToolStripMenuItem";
+            this.японскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.японскийToolStripMenuItem.Text = "Японский";
+            // 
+            // корейскийToolStripMenuItem
+            // 
+            this.корейскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.windows949ToolStripMenuItem,
+            this.eUCKRToolStripMenuItem});
+            this.корейскийToolStripMenuItem.Name = "корейскийToolStripMenuItem";
+            this.корейскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.корейскийToolStripMenuItem.Text = "Корейский";
+            // 
+            // североЕвропейскийToolStripMenuItem
+            // 
+            this.североЕвропейскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.oEM861ИсландскийToolStripMenuItem,
+            this.oEM865НордическийToolStripMenuItem});
+            this.североЕвропейскийToolStripMenuItem.Name = "североЕвропейскийToolStripMenuItem";
+            this.североЕвропейскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.североЕвропейскийToolStripMenuItem.Text = "Северо-Европейский";
+            // 
+            // тайскийToolStripMenuItem
+            // 
+            this.тайскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tIS620ToolStripMenuItem});
+            this.тайскийToolStripMenuItem.Name = "тайскийToolStripMenuItem";
+            this.тайскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.тайскийToolStripMenuItem.Text = "Тайский";
+            // 
+            // турецкийToolStripMenuItem
+            // 
+            this.турецкийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88593ToolStripMenuItem,
+            this.iSO88599ToolStripMenuItem,
+            this.oEM857ToolStripMenuItem,
+            this.windows1254ToolStripMenuItem});
+            this.турецкийToolStripMenuItem.Name = "турецкийToolStripMenuItem";
+            this.турецкийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.турецкийToolStripMenuItem.Text = "Турецкий";
+            // 
+            // западноЕвропейскийToolStripMenuItem
+            // 
+            this.западноЕвропейскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.iSO88591ToolStripMenuItem,
+            this.iSO885915ToolStripMenuItem,
+            this.oEM850ToolStripMenuItem,
+            this.oEM858ToolStripMenuItem,
+            this.oEM860ПортугальскийToolStripMenuItem,
+            this.oEM863ФранцузкийToolStripMenuItem,
+            this.oEMUSToolStripMenuItem,
+            this.windows1252ToolStripMenuItem});
+            this.западноЕвропейскийToolStripMenuItem.Name = "западноЕвропейскийToolStripMenuItem";
+            this.западноЕвропейскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.западноЕвропейскийToolStripMenuItem.Text = "Западно-Европейский";
+            // 
+            // вьетнамскийToolStripMenuItem
+            // 
+            this.вьетнамскийToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.windows1258ToolStripMenuItem});
+            this.вьетнамскийToolStripMenuItem.Name = "вьетнамскийToolStripMenuItem";
+            this.вьетнамскийToolStripMenuItem.Size = new System.Drawing.Size(218, 22);
+            this.вьетнамскийToolStripMenuItem.Text = "Вьетнамский";
+            // 
+            // iSO88596ToolStripMenuItem
+            // 
+            this.iSO88596ToolStripMenuItem.Name = "iSO88596ToolStripMenuItem";
+            this.iSO88596ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88596ToolStripMenuItem.Text = "ISO 8859-6";
+            // 
+            // oEM720ToolStripMenuItem
+            // 
+            this.oEM720ToolStripMenuItem.Name = "oEM720ToolStripMenuItem";
+            this.oEM720ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM720ToolStripMenuItem.Text = "OEM 720";
+            // 
+            // windows1256ToolStripMenuItem
+            // 
+            this.windows1256ToolStripMenuItem.Name = "windows1256ToolStripMenuItem";
+            this.windows1256ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows1256ToolStripMenuItem.Text = "Windows-1256";
+            // 
+            // iSO88594ToolStripMenuItem
+            // 
+            this.iSO88594ToolStripMenuItem.Name = "iSO88594ToolStripMenuItem";
+            this.iSO88594ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88594ToolStripMenuItem.Text = "ISO 8859-4";
+            // 
+            // iSO885913ToolStripMenuItem
+            // 
+            this.iSO885913ToolStripMenuItem.Name = "iSO885913ToolStripMenuItem";
+            this.iSO885913ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO885913ToolStripMenuItem.Text = "ISO 8859-13";
+            // 
+            // oEM775ToolStripMenuItem
+            // 
+            this.oEM775ToolStripMenuItem.Name = "oEM775ToolStripMenuItem";
+            this.oEM775ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM775ToolStripMenuItem.Text = "OEM 775";
+            // 
+            // windows1257ToolStripMenuItem
+            // 
+            this.windows1257ToolStripMenuItem.Name = "windows1257ToolStripMenuItem";
+            this.windows1257ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows1257ToolStripMenuItem.Text = "Windows-1257";
+            // 
+            // iSO885914ToolStripMenuItem
+            // 
+            this.iSO885914ToolStripMenuItem.Name = "iSO885914ToolStripMenuItem";
+            this.iSO885914ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO885914ToolStripMenuItem.Text = "ISO 8859-14";
+            // 
+            // iSO88595ToolStripMenuItem1
+            // 
+            this.iSO88595ToolStripMenuItem1.Name = "iSO88595ToolStripMenuItem1";
+            this.iSO88595ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.iSO88595ToolStripMenuItem1.Text = "ISO 8859-5";
+            // 
+            // kOI8RToolStripMenuItem1
+            // 
+            this.kOI8RToolStripMenuItem1.Name = "kOI8RToolStripMenuItem1";
+            this.kOI8RToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.kOI8RToolStripMenuItem1.Text = "KOI8-R";
+            // 
+            // kOI8UToolStripMenuItem
+            // 
+            this.kOI8UToolStripMenuItem.Name = "kOI8UToolStripMenuItem";
+            this.kOI8UToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.kOI8UToolStripMenuItem.Text = "KOI8-U";
+            // 
+            // macintoshToolStripMenuItem1
+            // 
+            this.macintoshToolStripMenuItem1.Name = "macintoshToolStripMenuItem1";
+            this.macintoshToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.macintoshToolStripMenuItem1.Text = "Macintosh";
+            // 
+            // oEM855ToolStripMenuItem1
+            // 
+            this.oEM855ToolStripMenuItem1.Name = "oEM855ToolStripMenuItem1";
+            this.oEM855ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.oEM855ToolStripMenuItem1.Text = "OEM 855";
+            // 
+            // oEM866ToolStripMenuItem1
+            // 
+            this.oEM866ToolStripMenuItem1.Name = "oEM866ToolStripMenuItem1";
+            this.oEM866ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.oEM866ToolStripMenuItem1.Text = "OEM 866";
+            // 
+            // windows1251ToolStripMenuItem1
+            // 
+            this.windows1251ToolStripMenuItem1.Name = "windows1251ToolStripMenuItem1";
+            this.windows1251ToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.windows1251ToolStripMenuItem1.Text = "Windows-1251";
+            // 
+            // oEM852ToolStripMenuItem
+            // 
+            this.oEM852ToolStripMenuItem.Name = "oEM852ToolStripMenuItem";
+            this.oEM852ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM852ToolStripMenuItem.Text = "OEM 852";
+            // 
+            // windowsToolStripMenuItem
+            // 
+            this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
+            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windowsToolStripMenuItem.Text = "Windows - 1250";
+            // 
+            // big5традиционныйToolStripMenuItem
+            // 
+            this.big5традиционныйToolStripMenuItem.Name = "big5традиционныйToolStripMenuItem";
+            this.big5традиционныйToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.big5традиционныйToolStripMenuItem.Text = "Big5(Традиционный)";
+            // 
+            // gB2312упрощенныйToolStripMenuItem
+            // 
+            this.gB2312упрощенныйToolStripMenuItem.Name = "gB2312упрощенныйToolStripMenuItem";
+            this.gB2312упрощенныйToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
+            this.gB2312упрощенныйToolStripMenuItem.Text = "GB2312(Упрощенный)";
+            // 
+            // iSO88592ToolStripMenuItem
+            // 
+            this.iSO88592ToolStripMenuItem.Name = "iSO88592ToolStripMenuItem";
+            this.iSO88592ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88592ToolStripMenuItem.Text = "ISO 8859-2";
+            // 
+            // iSO88597ToolStripMenuItem
+            // 
+            this.iSO88597ToolStripMenuItem.Name = "iSO88597ToolStripMenuItem";
+            this.iSO88597ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88597ToolStripMenuItem.Text = "ISO 8859-7";
+            // 
+            // oEM737ToolStripMenuItem
+            // 
+            this.oEM737ToolStripMenuItem.Name = "oEM737ToolStripMenuItem";
+            this.oEM737ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM737ToolStripMenuItem.Text = "OEM 737";
+            // 
+            // oEM869ToolStripMenuItem
+            // 
+            this.oEM869ToolStripMenuItem.Name = "oEM869ToolStripMenuItem";
+            this.oEM869ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM869ToolStripMenuItem.Text = "OEM 869";
+            // 
+            // windows1253ToolStripMenuItem
+            // 
+            this.windows1253ToolStripMenuItem.Name = "windows1253ToolStripMenuItem";
+            this.windows1253ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows1253ToolStripMenuItem.Text = "Windows-1253";
+            // 
+            // iSO88598ToolStripMenuItem
+            // 
+            this.iSO88598ToolStripMenuItem.Name = "iSO88598ToolStripMenuItem";
+            this.iSO88598ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88598ToolStripMenuItem.Text = "ISO 8859-8";
+            // 
+            // oEM862ToolStripMenuItem
+            // 
+            this.oEM862ToolStripMenuItem.Name = "oEM862ToolStripMenuItem";
+            this.oEM862ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM862ToolStripMenuItem.Text = "OEM 862";
+            // 
+            // windows1255ToolStripMenuItem
+            // 
+            this.windows1255ToolStripMenuItem.Name = "windows1255ToolStripMenuItem";
+            this.windows1255ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows1255ToolStripMenuItem.Text = "Windows-1255";
+            // 
+            // shiftJISToolStripMenuItem
+            // 
+            this.shiftJISToolStripMenuItem.Name = "shiftJISToolStripMenuItem";
+            this.shiftJISToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.shiftJISToolStripMenuItem.Text = "Shift-JIS";
+            // 
+            // windows949ToolStripMenuItem
+            // 
+            this.windows949ToolStripMenuItem.Name = "windows949ToolStripMenuItem";
+            this.windows949ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows949ToolStripMenuItem.Text = "Windows-949";
+            // 
+            // eUCKRToolStripMenuItem
+            // 
+            this.eUCKRToolStripMenuItem.Name = "eUCKRToolStripMenuItem";
+            this.eUCKRToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eUCKRToolStripMenuItem.Text = "EUC-KR";
+            // 
+            // oEM861ИсландскийToolStripMenuItem
+            // 
+            this.oEM861ИсландскийToolStripMenuItem.Name = "oEM861ИсландскийToolStripMenuItem";
+            this.oEM861ИсландскийToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.oEM861ИсландскийToolStripMenuItem.Text = "OEM 861:Исландский";
+            // 
+            // oEM865НордическийToolStripMenuItem
+            // 
+            this.oEM865НордическийToolStripMenuItem.Name = "oEM865НордическийToolStripMenuItem";
+            this.oEM865НордическийToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
+            this.oEM865НордическийToolStripMenuItem.Text = "OEM 865:Нордический";
+            // 
+            // tIS620ToolStripMenuItem
+            // 
+            this.tIS620ToolStripMenuItem.Name = "tIS620ToolStripMenuItem";
+            this.tIS620ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.tIS620ToolStripMenuItem.Text = "TIS-620";
+            // 
+            // iSO88593ToolStripMenuItem
+            // 
+            this.iSO88593ToolStripMenuItem.Name = "iSO88593ToolStripMenuItem";
+            this.iSO88593ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88593ToolStripMenuItem.Text = "ISO 8859-3";
+            // 
+            // iSO88599ToolStripMenuItem
+            // 
+            this.iSO88599ToolStripMenuItem.Name = "iSO88599ToolStripMenuItem";
+            this.iSO88599ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iSO88599ToolStripMenuItem.Text = "ISO 8859-9";
+            // 
+            // oEM857ToolStripMenuItem
+            // 
+            this.oEM857ToolStripMenuItem.Name = "oEM857ToolStripMenuItem";
+            this.oEM857ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.oEM857ToolStripMenuItem.Text = "OEM 857";
+            // 
+            // windows1254ToolStripMenuItem
+            // 
+            this.windows1254ToolStripMenuItem.Name = "windows1254ToolStripMenuItem";
+            this.windows1254ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows1254ToolStripMenuItem.Text = "Windows-1254";
+            // 
+            // iSO88591ToolStripMenuItem
+            // 
+            this.iSO88591ToolStripMenuItem.Name = "iSO88591ToolStripMenuItem";
+            this.iSO88591ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.iSO88591ToolStripMenuItem.Text = "ISO 8859-1";
+            // 
+            // iSO885915ToolStripMenuItem
+            // 
+            this.iSO885915ToolStripMenuItem.Name = "iSO885915ToolStripMenuItem";
+            this.iSO885915ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.iSO885915ToolStripMenuItem.Text = "ISO 8859-15";
+            // 
+            // oEM850ToolStripMenuItem
+            // 
+            this.oEM850ToolStripMenuItem.Name = "oEM850ToolStripMenuItem";
+            this.oEM850ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.oEM850ToolStripMenuItem.Text = "OEM 850";
+            // 
+            // oEM858ToolStripMenuItem
+            // 
+            this.oEM858ToolStripMenuItem.Name = "oEM858ToolStripMenuItem";
+            this.oEM858ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.oEM858ToolStripMenuItem.Text = "OEM 858";
+            // 
+            // oEM860ПортугальскийToolStripMenuItem
+            // 
+            this.oEM860ПортугальскийToolStripMenuItem.Name = "oEM860ПортугальскийToolStripMenuItem";
+            this.oEM860ПортугальскийToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.oEM860ПортугальскийToolStripMenuItem.Text = "OEM 860: Португальский";
+            // 
+            // oEM863ФранцузкийToolStripMenuItem
+            // 
+            this.oEM863ФранцузкийToolStripMenuItem.Name = "oEM863ФранцузкийToolStripMenuItem";
+            this.oEM863ФранцузкийToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.oEM863ФранцузкийToolStripMenuItem.Text = "OEM 863: Французкий";
+            // 
+            // oEMUSToolStripMenuItem
+            // 
+            this.oEMUSToolStripMenuItem.Name = "oEMUSToolStripMenuItem";
+            this.oEMUSToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.oEMUSToolStripMenuItem.Text = "OEM-US";
+            // 
+            // windows1252ToolStripMenuItem
+            // 
+            this.windows1252ToolStripMenuItem.Name = "windows1252ToolStripMenuItem";
+            this.windows1252ToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.windows1252ToolStripMenuItem.Text = "Windows-1252";
+            // 
+            // windows1258ToolStripMenuItem
+            // 
+            this.windows1258ToolStripMenuItem.Name = "windows1258ToolStripMenuItem";
+            this.windows1258ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.windows1258ToolStripMenuItem.Text = "Windows-1258";
+            // 
+            // toolStripSeparator26
+            // 
+            this.toolStripSeparator26.Name = "toolStripSeparator26";
+            this.toolStripSeparator26.Size = new System.Drawing.Size(259, 6);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -2455,6 +3072,81 @@
         private System.Windows.Forms.ToolStripMenuItem тестСправаНалевоToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem тестСлеваНаправоToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem мониторингToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкаANSIToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкаUT8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкаUT8СBOMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкаUTF16ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкиUTF16LEСBOMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кодировкиToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem арабскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88596ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM720ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1256ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem балтийскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88594ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO885913ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM775ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1257ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кельтскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO885914ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem кириллицаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88595ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem центральноЕвропейскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem китайскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem восточноЕвропейскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem греческийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ивритToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem японскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem корейскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem североЕвропейскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem тайскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem турецкийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem западноЕвропейскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem вьетнамскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem преобразоватьВANSIToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem преобразоватьВUTF8ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem преобразоватьВUTF8СBOMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem преобразоватьВUTF16BEСBOMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem преобразоватьВUTF16LEСBOMToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kOI8RToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem kOI8UToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem macintoshToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem oEM855ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem oEM866ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem windows1251ToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem oEM852ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem big5традиционныйToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem gB2312упрощенныйToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88592ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88597ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM737ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM869ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1253ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88598ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM862ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1255ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem shiftJISToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows949ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eUCKRToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM861ИсландскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM865НордическийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tIS620ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88593ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88599ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM857ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1254ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO88591ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem iSO885915ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM850ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM858ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM860ПортугальскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEM863ФранцузкийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem oEMUSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1252ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem windows1258ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator26;
     }
 }
 
