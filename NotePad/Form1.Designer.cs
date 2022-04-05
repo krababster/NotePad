@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.новыйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -572,6 +573,46 @@
             this.toolStripSeparator38 = new System.Windows.Forms.ToolStripSeparator();
             this.отладочнаяИнформацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.оПорграммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button32 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button30 = new System.Windows.Forms.Button();
+            this.button29 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -593,7 +634,7 @@
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(865, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(972, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -2009,25 +2050,25 @@
             // firefoxToolStripMenuItem
             // 
             this.firefoxToolStripMenuItem.Name = "firefoxToolStripMenuItem";
-            this.firefoxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.firefoxToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.firefoxToolStripMenuItem.Text = "Firefox";
             // 
             // chromeToolStripMenuItem
             // 
             this.chromeToolStripMenuItem.Name = "chromeToolStripMenuItem";
-            this.chromeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.chromeToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.chromeToolStripMenuItem.Text = "Chrome";
             // 
             // edgeToolStripMenuItem
             // 
             this.edgeToolStripMenuItem.Name = "edgeToolStripMenuItem";
-            this.edgeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.edgeToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.edgeToolStripMenuItem.Text = "Edge";
             // 
             // iEToolStripMenuItem
             // 
             this.iEToolStripMenuItem.Name = "iEToolStripMenuItem";
-            this.iEToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.iEToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
             this.iEToolStripMenuItem.Text = "IE";
             // 
             // toolStripSeparator18
@@ -2338,56 +2379,56 @@
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D1)));
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem2.Text = "1";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D2)));
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem3.Text = "2";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
             this.toolStripMenuItem4.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D3)));
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem4.Text = "3";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             this.toolStripMenuItem5.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D4)));
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem5.Text = "4";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
             this.toolStripMenuItem6.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D5)));
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem6.Text = "5";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
             this.toolStripMenuItem7.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D6)));
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem7.Text = "6";
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
             this.toolStripMenuItem8.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D7)));
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem8.Text = "7";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
             this.toolStripMenuItem9.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.D8)));
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(116, 22);
             this.toolStripMenuItem9.Text = "8";
             // 
             // развернутьУровеньToolStripMenuItem
@@ -2410,7 +2451,7 @@
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
             this.toolStripMenuItem10.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D1)));
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem10.Text = "1";
             // 
             // toolStripMenuItem11
@@ -2418,7 +2459,7 @@
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
             this.toolStripMenuItem11.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D2)));
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem11.Text = "2";
             // 
             // toolStripMenuItem12
@@ -2426,7 +2467,7 @@
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
             this.toolStripMenuItem12.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D3)));
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem12.Text = "3";
             // 
             // toolStripMenuItem13
@@ -2434,7 +2475,7 @@
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
             this.toolStripMenuItem13.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D4)));
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem13.Text = "4";
             // 
             // toolStripMenuItem14
@@ -2442,7 +2483,7 @@
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
             this.toolStripMenuItem14.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D5)));
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem14.Text = "5";
             // 
             // toolStripMenuItem15
@@ -2450,7 +2491,7 @@
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
             this.toolStripMenuItem15.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D6)));
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem15.Text = "6";
             // 
             // toolStripMenuItem16
@@ -2458,7 +2499,7 @@
             this.toolStripMenuItem16.Name = "toolStripMenuItem16";
             this.toolStripMenuItem16.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D7)));
-            this.toolStripMenuItem16.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem16.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem16.Text = "7";
             // 
             // toolStripMenuItem17
@@ -2466,7 +2507,7 @@
             this.toolStripMenuItem17.Name = "toolStripMenuItem17";
             this.toolStripMenuItem17.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.D8)));
-            this.toolStripMenuItem17.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItem17.Size = new System.Drawing.Size(148, 22);
             this.toolStripMenuItem17.Text = "8";
             // 
             // toolStripSeparator20
@@ -2498,19 +2539,19 @@
             // проектпанель1ToolStripMenuItem
             // 
             this.проектпанель1ToolStripMenuItem.Name = "проектпанель1ToolStripMenuItem";
-            this.проектпанель1ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.проектпанель1ToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.проектпанель1ToolStripMenuItem.Text = "Проект-панель 1";
             // 
             // проектпанель2ToolStripMenuItem
             // 
             this.проектпанель2ToolStripMenuItem.Name = "проектпанель2ToolStripMenuItem";
-            this.проектпанель2ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.проектпанель2ToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.проектпанель2ToolStripMenuItem.Text = "Проект-панель 2";
             // 
             // проектпанель3ToolStripMenuItem
             // 
             this.проектпанель3ToolStripMenuItem.Name = "проектпанель3ToolStripMenuItem";
-            this.проектпанель3ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.проектпанель3ToolStripMenuItem.Size = new System.Drawing.Size(167, 22);
             this.проектпанель3ToolStripMenuItem.Text = "Проект-панель 3";
             // 
             // папкаКакПроектToolStripMenuItem
@@ -4559,11 +4600,431 @@
             this.оПорграммеToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
             this.оПорграммеToolStripMenuItem.Text = "О порграмме...";
             // 
+            // button32
+            // 
+            this.button32.Image = global::NotePad.Properties.Resources.AllSymb;
+            this.button32.Location = new System.Drawing.Point(539, 27);
+            this.button32.Name = "button32";
+            this.button32.Size = new System.Drawing.Size(25, 25);
+            this.button32.TabIndex = 40;
+            this.toolTip1.SetToolTip(this.button32, "Отображать все символы");
+            this.button32.UseVisualStyleBackColor = true;
+            // 
+            // button31
+            // 
+            this.button31.Image = global::NotePad.Properties.Resources.Screenshot_1;
+            this.button31.Location = new System.Drawing.Point(565, 27);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(25, 25);
+            this.button31.TabIndex = 39;
+            this.toolTip1.SetToolTip(this.button31, "Отображать направляющие отступов");
+            this.button31.UseVisualStyleBackColor = true;
+            // 
+            // button30
+            // 
+            this.button30.Image = global::NotePad.Properties.Resources.saveMacros;
+            this.button30.Location = new System.Drawing.Point(860, 27);
+            this.button30.Name = "button30";
+            this.button30.Size = new System.Drawing.Size(25, 25);
+            this.button30.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.button30, "Сохранить записанный макрос...");
+            this.button30.UseVisualStyleBackColor = true;
+            // 
+            // button29
+            // 
+            this.button29.Image = global::NotePad.Properties.Resources.multiplyLaunch;
+            this.button29.Location = new System.Drawing.Point(834, 27);
+            this.button29.Name = "button29";
+            this.button29.Size = new System.Drawing.Size(25, 25);
+            this.button29.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.button29, "Многократный запуск...");
+            this.button29.UseVisualStyleBackColor = true;
+            // 
+            // button28
+            // 
+            this.button28.Image = global::NotePad.Properties.Resources.play;
+            this.button28.Location = new System.Drawing.Point(808, 27);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(25, 25);
+            this.button28.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.button28, "Воспроизвести");
+            this.button28.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            this.button27.Image = global::NotePad.Properties.Resources.stopRec;
+            this.button27.Location = new System.Drawing.Point(782, 27);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(25, 25);
+            this.button27.TabIndex = 35;
+            this.toolTip1.SetToolTip(this.button27, "Остановить запись");
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // button26
+            // 
+            this.button26.Image = global::NotePad.Properties.Resources.startRec;
+            this.button26.Location = new System.Drawing.Point(756, 27);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(25, 25);
+            this.button26.TabIndex = 34;
+            this.toolTip1.SetToolTip(this.button26, "Начать запись");
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // label7
+            // 
+            this.label7.Image = global::NotePad.Properties.Resources.lbl7;
+            this.label7.Location = new System.Drawing.Point(747, 27);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(8, 25);
+            this.label7.TabIndex = 33;
+            // 
+            // button25
+            // 
+            this.button25.Image = global::NotePad.Properties.Resources.monitoring;
+            this.button25.Location = new System.Drawing.Point(721, 27);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(25, 25);
+            this.button25.TabIndex = 32;
+            this.toolTip1.SetToolTip(this.button25, "Мониторинг");
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.Image = global::NotePad.Properties.Resources.folderLikeProject;
+            this.button24.Location = new System.Drawing.Point(695, 27);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(25, 25);
+            this.button24.TabIndex = 31;
+            this.toolTip1.SetToolTip(this.button24, "Папка как Проект");
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Image = global::NotePad.Properties.Resources.funcsList;
+            this.button23.Location = new System.Drawing.Point(669, 27);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(25, 25);
+            this.button23.TabIndex = 30;
+            this.toolTip1.SetToolTip(this.button23, "Список Функций");
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Image = global::NotePad.Properties.Resources.docsList;
+            this.button22.Location = new System.Drawing.Point(643, 27);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(25, 25);
+            this.button22.TabIndex = 29;
+            this.toolTip1.SetToolTip(this.button22, "Список Документов");
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Image = global::NotePad.Properties.Resources.docsMap;
+            this.button21.Location = new System.Drawing.Point(617, 27);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(25, 25);
+            this.button21.TabIndex = 28;
+            this.toolTip1.SetToolTip(this.button21, "Карта Документа");
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Image = global::NotePad.Properties.Resources.userSynt;
+            this.button20.Location = new System.Drawing.Point(591, 27);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(25, 25);
+            this.button20.TabIndex = 27;
+            this.toolTip1.SetToolTip(this.button20, "Задать свой синтаксис...");
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.Image = global::NotePad.Properties.Resources.lbl6;
+            this.label6.Location = new System.Drawing.Point(504, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(8, 25);
+            this.label6.TabIndex = 26;
+            // 
+            // button19
+            // 
+            this.button19.Image = global::NotePad.Properties.Resources.lineWrap;
+            this.button19.Location = new System.Drawing.Point(513, 27);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(25, 25);
+            this.button19.TabIndex = 25;
+            this.toolTip1.SetToolTip(this.button19, "Перенос строк");
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Image = global::NotePad.Properties.Resources.syncH;
+            this.button18.Location = new System.Drawing.Point(478, 27);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(25, 25);
+            this.button18.TabIndex = 24;
+            this.toolTip1.SetToolTip(this.button18, "Синхрониз. горизонтальную прокрутку");
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Image = global::NotePad.Properties.Resources.syncV;
+            this.button17.Location = new System.Drawing.Point(452, 27);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(25, 25);
+            this.button17.TabIndex = 23;
+            this.toolTip1.SetToolTip(this.button17, "Синхрониз. Вертикальную прокрутку");
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.Image = global::NotePad.Properties.Resources.lbl5;
+            this.label5.Location = new System.Drawing.Point(444, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(7, 25);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "label5";
+            // 
+            // button16
+            // 
+            this.button16.Image = global::NotePad.Properties.Resources.smaller;
+            this.button16.Location = new System.Drawing.Point(418, 27);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(25, 25);
+            this.button16.TabIndex = 21;
+            this.toolTip1.SetToolTip(this.button16, "Мельче");
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Image = global::NotePad.Properties.Resources.larger;
+            this.button15.Location = new System.Drawing.Point(392, 27);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(25, 25);
+            this.button15.TabIndex = 20;
+            this.toolTip1.SetToolTip(this.button15, "Крупнее");
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.Image = global::NotePad.Properties.Resources.lbl4;
+            this.label4.Location = new System.Drawing.Point(383, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(8, 25);
+            this.label4.TabIndex = 19;
+            // 
+            // button14
+            // 
+            this.button14.Image = global::NotePad.Properties.Resources.replace;
+            this.button14.Location = new System.Drawing.Point(357, 27);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(25, 25);
+            this.button14.TabIndex = 18;
+            this.toolTip1.SetToolTip(this.button14, "Замена...");
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Image = global::NotePad.Properties.Resources.search;
+            this.button13.Location = new System.Drawing.Point(331, 27);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(25, 25);
+            this.button13.TabIndex = 17;
+            this.button13.Text = "button13";
+            this.toolTip1.SetToolTip(this.button13, "Найти...");
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.Image = global::NotePad.Properties.Resources.lbl31;
+            this.label3.Location = new System.Drawing.Point(325, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(5, 25);
+            this.label3.TabIndex = 16;
+            // 
+            // button9
+            // 
+            this.button9.Image = global::NotePad.Properties.Resources.repeat;
+            this.button9.Location = new System.Drawing.Point(299, 27);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(25, 25);
+            this.button9.TabIndex = 15;
+            this.toolTip1.SetToolTip(this.button9, "Повтор");
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.Image = global::NotePad.Properties.Resources.lbl21;
+            this.label2.Location = new System.Drawing.Point(267, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(5, 25);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "label2";
+            // 
+            // button12
+            // 
+            this.button12.Image = global::NotePad.Properties.Resources.Cancel;
+            this.button12.Location = new System.Drawing.Point(273, 27);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(25, 25);
+            this.button12.TabIndex = 13;
+            this.toolTip1.SetToolTip(this.button12, "Отмена");
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Image = global::NotePad.Properties.Resources.Copy;
+            this.button11.Location = new System.Drawing.Point(215, 27);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(25, 25);
+            this.button11.TabIndex = 12;
+            this.toolTip1.SetToolTip(this.button11, "Копировать");
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Image = global::NotePad.Properties.Resources.past;
+            this.button10.Location = new System.Drawing.Point(241, 27);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(25, 25);
+            this.button10.TabIndex = 11;
+            this.toolTip1.SetToolTip(this.button10, "Вставить");
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Image = global::NotePad.Properties.Resources.Cut;
+            this.button8.Location = new System.Drawing.Point(189, 27);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(25, 25);
+            this.button8.TabIndex = 9;
+            this.toolTip1.SetToolTip(this.button8, "Вырезать");
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.Image = global::NotePad.Properties.Resources.lbl1;
+            this.label1.Location = new System.Drawing.Point(181, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(7, 25);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "label1";
+            // 
+            // button7
+            // 
+            this.button7.Image = global::NotePad.Properties.Resources.Print;
+            this.button7.Location = new System.Drawing.Point(156, 27);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(25, 25);
+            this.button7.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.button7, "Печать");
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Image = global::NotePad.Properties.Resources.CloseAll;
+            this.button6.Location = new System.Drawing.Point(130, 27);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(25, 25);
+            this.button6.TabIndex = 6;
+            this.toolTip1.SetToolTip(this.button6, "Закрыть все");
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Image = global::NotePad.Properties.Resources.Close;
+            this.button5.Location = new System.Drawing.Point(104, 27);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(25, 25);
+            this.button5.TabIndex = 5;
+            this.toolTip1.SetToolTip(this.button5, "Закрыть");
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Image = global::NotePad.Properties.Resources.saveAll;
+            this.button4.Location = new System.Drawing.Point(78, 27);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(25, 25);
+            this.button4.TabIndex = 4;
+            this.button4.Text = " ";
+            this.toolTip1.SetToolTip(this.button4, "Сохранить все");
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Image = global::NotePad.Properties.Resources.save;
+            this.button3.Location = new System.Drawing.Point(52, 27);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(25, 25);
+            this.button3.TabIndex = 3;
+            this.toolTip1.SetToolTip(this.button3, "Сохранить");
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Image = global::NotePad.Properties.Resources.open;
+            this.button2.Location = new System.Drawing.Point(26, 27);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(25, 25);
+            this.button2.TabIndex = 2;
+            this.toolTip1.SetToolTip(this.button2, "Открыть");
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Image = global::NotePad.Properties.Resources._new;
+            this.button1.Location = new System.Drawing.Point(0, 27);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(25, 25);
+            this.button1.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.button1, "Новый");
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(865, 503);
+            this.ClientSize = new System.Drawing.Size(972, 504);
+            this.Controls.Add(this.button32);
+            this.Controls.Add(this.button31);
+            this.Controls.Add(this.button30);
+            this.Controls.Add(this.button29);
+            this.Controls.Add(this.button28);
+            this.Controls.Add(this.button27);
+            this.Controls.Add(this.button26);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button25);
+            this.Controls.Add(this.button24);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.button21);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -5121,6 +5582,46 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator38;
         private System.Windows.Forms.ToolStripMenuItem отладочнаяИнформацияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оПорграммеToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button button29;
+        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button button31;
+        private System.Windows.Forms.Button button32;
     }
 }
 

@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,132 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CloseAll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\past.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\repeat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\replace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\larger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smaller.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syncV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syncH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lineWrap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userSynt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docsMap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userSynt1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docsList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\funcsList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folderLikeProject.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monitoring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lbl7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\startRec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stopRec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\multiplyLaunch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveMacros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AllSymb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
