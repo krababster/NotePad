@@ -549,6 +549,29 @@
             this.copyALLFormatsToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator34 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator35 = new System.Windows.Forms.ToolStripSeparator();
+            this.вкладкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сортироватьПоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поИмениОтAДоZToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поИмениОтZДоAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поПутиОтAДоZToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поПутиОтZДоAToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поТипуОтAДоZToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поТипуОтДоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поРазмеруОтМеньшегоКБольшемуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.поРазмеруОтБольшегоКМеньшемуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.параметрыКоианднойСтрокиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сайтПроектаNotepadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.страницаПроектаNotepadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.руководствоОнлайнToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.форумToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.обновитьNotepadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.задатьПроксиОбновленияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.отладочнаяИнформацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.оПорграммеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator36 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator37 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator38 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -565,7 +588,9 @@
             this.инструментыToolStripMenuItem,
             this.макросыToolStripMenuItem,
             this.запускToolStripMenuItem,
-            this.плагиныToolStripMenuItem});
+            this.плагиныToolStripMenuItem,
+            this.вкладкиToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1024, 24);
@@ -4241,6 +4266,165 @@
             this.toolStripSeparator35.Name = "toolStripSeparator35";
             this.toolStripSeparator35.Size = new System.Drawing.Size(210, 6);
             // 
+            // вкладкиToolStripMenuItem
+            // 
+            this.вкладкиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.сортироватьПоToolStripMenuItem});
+            this.вкладкиToolStripMenuItem.Name = "вкладкиToolStripMenuItem";
+            this.вкладкиToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.вкладкиToolStripMenuItem.Text = "Вкладки";
+            // 
+            // сортироватьПоToolStripMenuItem
+            // 
+            this.сортироватьПоToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.поИмениОтAДоZToolStripMenuItem,
+            this.поИмениОтZДоAToolStripMenuItem,
+            this.поПутиОтAДоZToolStripMenuItem,
+            this.поПутиОтZДоAToolStripMenuItem,
+            this.поТипуОтAДоZToolStripMenuItem,
+            this.поТипуОтДоToolStripMenuItem,
+            this.поРазмеруОтМеньшегоКБольшемуToolStripMenuItem,
+            this.поРазмеруОтБольшегоКМеньшемуToolStripMenuItem});
+            this.сортироватьПоToolStripMenuItem.Name = "сортироватьПоToolStripMenuItem";
+            this.сортироватьПоToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.сортироватьПоToolStripMenuItem.Text = "Сортировать по...";
+            // 
+            // поИмениОтAДоZToolStripMenuItem
+            // 
+            this.поИмениОтAДоZToolStripMenuItem.Name = "поИмениОтAДоZToolStripMenuItem";
+            this.поИмениОтAДоZToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поИмениОтAДоZToolStripMenuItem.Text = "По имени от A до Z";
+            // 
+            // поИмениОтZДоAToolStripMenuItem
+            // 
+            this.поИмениОтZДоAToolStripMenuItem.Name = "поИмениОтZДоAToolStripMenuItem";
+            this.поИмениОтZДоAToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поИмениОтZДоAToolStripMenuItem.Text = "По имени от Z до A";
+            // 
+            // поПутиОтAДоZToolStripMenuItem
+            // 
+            this.поПутиОтAДоZToolStripMenuItem.Name = "поПутиОтAДоZToolStripMenuItem";
+            this.поПутиОтAДоZToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поПутиОтAДоZToolStripMenuItem.Text = "По пути от A до Z";
+            // 
+            // поПутиОтZДоAToolStripMenuItem
+            // 
+            this.поПутиОтZДоAToolStripMenuItem.Name = "поПутиОтZДоAToolStripMenuItem";
+            this.поПутиОтZДоAToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поПутиОтZДоAToolStripMenuItem.Text = "По пути от Z до A";
+            // 
+            // поТипуОтAДоZToolStripMenuItem
+            // 
+            this.поТипуОтAДоZToolStripMenuItem.Name = "поТипуОтAДоZToolStripMenuItem";
+            this.поТипуОтAДоZToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поТипуОтAДоZToolStripMenuItem.Text = "По типу от A до Z";
+            // 
+            // поТипуОтДоToolStripMenuItem
+            // 
+            this.поТипуОтДоToolStripMenuItem.Name = "поТипуОтДоToolStripMenuItem";
+            this.поТипуОтДоToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поТипуОтДоToolStripMenuItem.Text = "По типу от Z до A";
+            // 
+            // поРазмеруОтМеньшегоКБольшемуToolStripMenuItem
+            // 
+            this.поРазмеруОтМеньшегоКБольшемуToolStripMenuItem.Name = "поРазмеруОтМеньшегоКБольшемуToolStripMenuItem";
+            this.поРазмеруОтМеньшегоКБольшемуToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поРазмеруОтМеньшегоКБольшемуToolStripMenuItem.Text = "По размеру от Меньшего к Большему";
+            // 
+            // поРазмеруОтБольшегоКМеньшемуToolStripMenuItem
+            // 
+            this.поРазмеруОтБольшегоКМеньшемуToolStripMenuItem.Name = "поРазмеруОтБольшегоКМеньшемуToolStripMenuItem";
+            this.поРазмеруОтБольшегоКМеньшемуToolStripMenuItem.Size = new System.Drawing.Size(287, 22);
+            this.поРазмеруОтБольшегоКМеньшемуToolStripMenuItem.Text = "По размеру от Большего к Меньшему";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.параметрыКоианднойСтрокиToolStripMenuItem,
+            this.toolStripSeparator36,
+            this.сайтПроектаNotepadToolStripMenuItem,
+            this.страницаПроектаNotepadToolStripMenuItem,
+            this.руководствоОнлайнToolStripMenuItem,
+            this.форумToolStripMenuItem,
+            this.toolStripSeparator37,
+            this.обновитьNotepadToolStripMenuItem,
+            this.задатьПроксиОбновленияToolStripMenuItem,
+            this.toolStripSeparator38,
+            this.отладочнаяИнформацияToolStripMenuItem,
+            this.оПорграммеToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(24, 20);
+            this.toolStripMenuItem1.Text = "?";
+            // 
+            // параметрыКоианднойСтрокиToolStripMenuItem
+            // 
+            this.параметрыКоианднойСтрокиToolStripMenuItem.Name = "параметрыКоианднойСтрокиToolStripMenuItem";
+            this.параметрыКоианднойСтрокиToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.параметрыКоианднойСтрокиToolStripMenuItem.Text = "Параметры коиандной строки";
+            // 
+            // сайтПроектаNotepadToolStripMenuItem
+            // 
+            this.сайтПроектаNotepadToolStripMenuItem.Name = "сайтПроектаNotepadToolStripMenuItem";
+            this.сайтПроектаNotepadToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.сайтПроектаNotepadToolStripMenuItem.Text = "Сайт проекта Notepad++";
+            // 
+            // страницаПроектаNotepadToolStripMenuItem
+            // 
+            this.страницаПроектаNotepadToolStripMenuItem.Name = "страницаПроектаNotepadToolStripMenuItem";
+            this.страницаПроектаNotepadToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.страницаПроектаNotepadToolStripMenuItem.Text = "Страница проекта Notepad++";
+            // 
+            // руководствоОнлайнToolStripMenuItem
+            // 
+            this.руководствоОнлайнToolStripMenuItem.Name = "руководствоОнлайнToolStripMenuItem";
+            this.руководствоОнлайнToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.руководствоОнлайнToolStripMenuItem.Text = "Руководство онлайн";
+            // 
+            // форумToolStripMenuItem
+            // 
+            this.форумToolStripMenuItem.Name = "форумToolStripMenuItem";
+            this.форумToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.форумToolStripMenuItem.Text = "Форум";
+            // 
+            // обновитьNotepadToolStripMenuItem
+            // 
+            this.обновитьNotepadToolStripMenuItem.Name = "обновитьNotepadToolStripMenuItem";
+            this.обновитьNotepadToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.обновитьNotepadToolStripMenuItem.Text = "Обновить Notepad++";
+            // 
+            // задатьПроксиОбновленияToolStripMenuItem
+            // 
+            this.задатьПроксиОбновленияToolStripMenuItem.Name = "задатьПроксиОбновленияToolStripMenuItem";
+            this.задатьПроксиОбновленияToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.задатьПроксиОбновленияToolStripMenuItem.Text = "Задать прокси обновления...";
+            // 
+            // отладочнаяИнформацияToolStripMenuItem
+            // 
+            this.отладочнаяИнформацияToolStripMenuItem.Name = "отладочнаяИнформацияToolStripMenuItem";
+            this.отладочнаяИнформацияToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.отладочнаяИнформацияToolStripMenuItem.Text = "Отладочная информация";
+            // 
+            // оПорграммеToolStripMenuItem
+            // 
+            this.оПорграммеToolStripMenuItem.Name = "оПорграммеToolStripMenuItem";
+            this.оПорграммеToolStripMenuItem.Size = new System.Drawing.Size(242, 22);
+            this.оПорграммеToolStripMenuItem.Text = "О порграмме...";
+            // 
+            // toolStripSeparator36
+            // 
+            this.toolStripSeparator36.Name = "toolStripSeparator36";
+            this.toolStripSeparator36.Size = new System.Drawing.Size(239, 6);
+            // 
+            // toolStripSeparator37
+            // 
+            this.toolStripSeparator37.Name = "toolStripSeparator37";
+            this.toolStripSeparator37.Size = new System.Drawing.Size(239, 6);
+            // 
+            // toolStripSeparator38
+            // 
+            this.toolStripSeparator38.Name = "toolStripSeparator38";
+            this.toolStripSeparator38.Size = new System.Drawing.Size(239, 6);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4780,6 +4964,29 @@
         private System.Windows.Forms.ToolStripMenuItem copyALLFormatsToClipboardToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator34;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator35;
+        private System.Windows.Forms.ToolStripMenuItem вкладкиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сортироватьПоToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поИмениОтAДоZToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поИмениОтZДоAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поПутиОтAДоZToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поПутиОтZДоAToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поТипуОтAДоZToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поТипуОтДоToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поРазмеруОтМеньшегоКБольшемуToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem поРазмеруОтБольшегоКМеньшемуToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem параметрыКоианднойСтрокиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator36;
+        private System.Windows.Forms.ToolStripMenuItem сайтПроектаNotepadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem страницаПроектаNotepadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem руководствоОнлайнToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem форумToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator37;
+        private System.Windows.Forms.ToolStripMenuItem обновитьNotepadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem задатьПроксиОбновленияToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator38;
+        private System.Windows.Forms.ToolStripMenuItem отладочнаяИнформацияToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem оПорграммеToolStripMenuItem;
     }
 }
 
