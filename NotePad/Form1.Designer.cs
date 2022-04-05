@@ -509,6 +509,14 @@
             this.управлениеМакросамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator31 = new System.Windows.Forms.ToolStripSeparator();
+            this.запускToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.запускToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.getPHPHelpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wikipediaSearchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openSelectedFilePathToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.управлениеКомандамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator32 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator33 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -523,7 +531,8 @@
             this.синтаксисыToolStripMenuItem,
             this.опцииToolStripMenuItem,
             this.инструментыToolStripMenuItem,
-            this.макросыToolStripMenuItem});
+            this.макросыToolStripMenuItem,
+            this.запускToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -3903,7 +3912,6 @@
             this.trimTrailingToolStripMenuItem.Name = "trimTrailingToolStripMenuItem";
             this.trimTrailingToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
             this.trimTrailingToolStripMenuItem.Text = "Trim Trailing Space and Save";
-            this.trimTrailingToolStripMenuItem.Click += new System.EventHandler(this.trimTrailingToolStripMenuItem_Click);
             // 
             // управлениеМакросамиToolStripMenuItem
             // 
@@ -3920,6 +3928,60 @@
             // 
             this.toolStripSeparator31.Name = "toolStripSeparator31";
             this.toolStripSeparator31.Size = new System.Drawing.Size(253, 6);
+            // 
+            // запускToolStripMenuItem
+            // 
+            this.запускToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.запускToolStripMenuItem1,
+            this.toolStripSeparator33,
+            this.getPHPHelpToolStripMenuItem,
+            this.wikipediaSearchToolStripMenuItem,
+            this.openSelectedFilePathToolStripMenuItem,
+            this.toolStripSeparator32,
+            this.управлениеКомандамиToolStripMenuItem});
+            this.запускToolStripMenuItem.Name = "запускToolStripMenuItem";
+            this.запускToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.запускToolStripMenuItem.Text = "Запуск";
+            // 
+            // запускToolStripMenuItem1
+            // 
+            this.запускToolStripMenuItem1.Name = "запускToolStripMenuItem1";
+            this.запускToolStripMenuItem1.Size = new System.Drawing.Size(280, 22);
+            this.запускToolStripMenuItem1.Text = "Запуск...";
+            // 
+            // getPHPHelpToolStripMenuItem
+            // 
+            this.getPHPHelpToolStripMenuItem.Name = "getPHPHelpToolStripMenuItem";
+            this.getPHPHelpToolStripMenuItem.Size = new System.Drawing.Size(280, 22);
+            this.getPHPHelpToolStripMenuItem.Text = "Get PHP help";
+            // 
+            // wikipediaSearchToolStripMenuItem
+            // 
+            this.wikipediaSearchToolStripMenuItem.Name = "wikipediaSearchToolStripMenuItem";
+            this.wikipediaSearchToolStripMenuItem.Size = new System.Drawing.Size(280, 22);
+            this.wikipediaSearchToolStripMenuItem.Text = "Wikipedia search";
+            // 
+            // openSelectedFilePathToolStripMenuItem
+            // 
+            this.openSelectedFilePathToolStripMenuItem.Name = "openSelectedFilePathToolStripMenuItem";
+            this.openSelectedFilePathToolStripMenuItem.Size = new System.Drawing.Size(280, 22);
+            this.openSelectedFilePathToolStripMenuItem.Text = "Open selected file path in new instance";
+            // 
+            // управлениеКомандамиToolStripMenuItem
+            // 
+            this.управлениеКомандамиToolStripMenuItem.Name = "управлениеКомандамиToolStripMenuItem";
+            this.управлениеКомандамиToolStripMenuItem.Size = new System.Drawing.Size(280, 22);
+            this.управлениеКомандамиToolStripMenuItem.Text = "Управление командами...";
+            // 
+            // toolStripSeparator32
+            // 
+            this.toolStripSeparator32.Name = "toolStripSeparator32";
+            this.toolStripSeparator32.Size = new System.Drawing.Size(277, 6);
+            // 
+            // toolStripSeparator33
+            // 
+            this.toolStripSeparator33.Name = "toolStripSeparator33";
+            this.toolStripSeparator33.Size = new System.Drawing.Size(277, 6);
             // 
             // Form1
             // 
@@ -4420,6 +4482,14 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator30;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator31;
         private System.Windows.Forms.ToolStripMenuItem управлениеМакросамиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem запускToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem запускToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator33;
+        private System.Windows.Forms.ToolStripMenuItem getPHPHelpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem wikipediaSearchToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem openSelectedFilePathToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator32;
+        private System.Windows.Forms.ToolStripMenuItem управлениеКомандамиToolStripMenuItem;
     }
 }
 
