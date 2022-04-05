@@ -490,6 +490,15 @@
             this.импортироватьТемуыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator28 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator29 = new System.Windows.Forms.ToolStripSeparator();
+            this.инструментыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mD5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sHA256ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сгенерироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сгенерироватьИзФайловToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сгенИзКопированногоВБуферToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сгенерироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.сгенерироватьИзФайловToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.сгенИзКопированногоВБуферToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -502,7 +511,8 @@
             this.видToolStripMenuItem,
             this.кодировкиToolStripMenuItem,
             this.синтаксисыToolStripMenuItem,
-            this.опцииToolStripMenuItem});
+            this.опцииToolStripMenuItem,
+            this.инструментыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -3766,6 +3776,71 @@
             this.toolStripSeparator29.Name = "toolStripSeparator29";
             this.toolStripSeparator29.Size = new System.Drawing.Size(233, 6);
             // 
+            // инструментыToolStripMenuItem
+            // 
+            this.инструментыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mD5ToolStripMenuItem,
+            this.sHA256ToolStripMenuItem});
+            this.инструментыToolStripMenuItem.Name = "инструментыToolStripMenuItem";
+            this.инструментыToolStripMenuItem.Size = new System.Drawing.Size(95, 20);
+            this.инструментыToolStripMenuItem.Text = "Инструменты";
+            // 
+            // mD5ToolStripMenuItem
+            // 
+            this.mD5ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.сгенерироватьToolStripMenuItem,
+            this.сгенерироватьИзФайловToolStripMenuItem,
+            this.сгенИзКопированногоВБуферToolStripMenuItem});
+            this.mD5ToolStripMenuItem.Name = "mD5ToolStripMenuItem";
+            this.mD5ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mD5ToolStripMenuItem.Text = "MD5";
+            // 
+            // sHA256ToolStripMenuItem
+            // 
+            this.sHA256ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.сгенерироватьToolStripMenuItem1,
+            this.сгенерироватьИзФайловToolStripMenuItem1,
+            this.сгенИзКопированногоВБуферToolStripMenuItem1});
+            this.sHA256ToolStripMenuItem.Name = "sHA256ToolStripMenuItem";
+            this.sHA256ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sHA256ToolStripMenuItem.Text = "SHA-256";
+            // 
+            // сгенерироватьToolStripMenuItem
+            // 
+            this.сгенерироватьToolStripMenuItem.Name = "сгенерироватьToolStripMenuItem";
+            this.сгенерироватьToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
+            this.сгенерироватьToolStripMenuItem.Text = "Сгенерировать...";
+            // 
+            // сгенерироватьИзФайловToolStripMenuItem
+            // 
+            this.сгенерироватьИзФайловToolStripMenuItem.Name = "сгенерироватьИзФайловToolStripMenuItem";
+            this.сгенерироватьИзФайловToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
+            this.сгенерироватьИзФайловToolStripMenuItem.Text = "Сгенерировать из файлов...";
+            // 
+            // сгенИзКопированногоВБуферToolStripMenuItem
+            // 
+            this.сгенИзКопированногоВБуферToolStripMenuItem.Name = "сгенИзКопированногоВБуферToolStripMenuItem";
+            this.сгенИзКопированногоВБуферToolStripMenuItem.Size = new System.Drawing.Size(254, 22);
+            this.сгенИзКопированногоВБуферToolStripMenuItem.Text = "Сген. из копированного в буфер";
+            // 
+            // сгенерироватьToolStripMenuItem1
+            // 
+            this.сгенерироватьToolStripMenuItem1.Name = "сгенерироватьToolStripMenuItem1";
+            this.сгенерироватьToolStripMenuItem1.Size = new System.Drawing.Size(254, 22);
+            this.сгенерироватьToolStripMenuItem1.Text = "Сгенерировать...";
+            // 
+            // сгенерироватьИзФайловToolStripMenuItem1
+            // 
+            this.сгенерироватьИзФайловToolStripMenuItem1.Name = "сгенерироватьИзФайловToolStripMenuItem1";
+            this.сгенерироватьИзФайловToolStripMenuItem1.Size = new System.Drawing.Size(254, 22);
+            this.сгенерироватьИзФайловToolStripMenuItem1.Text = "Сгенерировать из файлов...";
+            // 
+            // сгенИзКопированногоВБуферToolStripMenuItem1
+            // 
+            this.сгенИзКопированногоВБуферToolStripMenuItem1.Name = "сгенИзКопированногоВБуферToolStripMenuItem1";
+            this.сгенИзКопированногоВБуферToolStripMenuItem1.Size = new System.Drawing.Size(254, 22);
+            this.сгенИзКопированногоВБуферToolStripMenuItem1.Text = "Сген. из копированного в буфер";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4246,6 +4321,15 @@
         private System.Windows.Forms.ToolStripMenuItem импортироватьТемуыToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator28;
         private System.Windows.Forms.ToolStripMenuItem редактКонтекстноеМенюToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem инструментыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mD5ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сгенерироватьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сгенерироватьИзФайловToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сгенИзКопированногоВБуферToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sHA256ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сгенерироватьToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem сгенерироватьИзФайловToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem сгенИзКопированногоВБуферToolStripMenuItem1;
     }
 }
 
