@@ -480,6 +480,16 @@
             this.открытьПапкуСинтаксисовToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.коллекцияПользЯзыковNotePadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator27 = new System.Windows.Forms.ToolStripSeparator();
+            this.опцииToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.настройкиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.определениеСтилейToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.клавишиБыстрогоДоступаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.импортироватьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.редактКонтекстноеМенюToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.импортироватьПлагиныToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.импортироватьТемуыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator28 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator29 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -491,7 +501,8 @@
             this.поискToolStripMenuItem,
             this.видToolStripMenuItem,
             this.кодировкиToolStripMenuItem,
-            this.синтаксисыToolStripMenuItem});
+            this.синтаксисыToolStripMenuItem,
+            this.опцииToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -3686,6 +3697,75 @@
             this.toolStripSeparator27.Name = "toolStripSeparator27";
             this.toolStripSeparator27.Size = new System.Drawing.Size(257, 6);
             // 
+            // опцииToolStripMenuItem
+            // 
+            this.опцииToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.настройкиToolStripMenuItem,
+            this.определениеСтилейToolStripMenuItem,
+            this.клавишиБыстрогоДоступаToolStripMenuItem,
+            this.toolStripSeparator29,
+            this.импортироватьToolStripMenuItem,
+            this.toolStripSeparator28,
+            this.редактКонтекстноеМенюToolStripMenuItem});
+            this.опцииToolStripMenuItem.Name = "опцииToolStripMenuItem";
+            this.опцииToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.опцииToolStripMenuItem.Text = "Опции";
+            // 
+            // настройкиToolStripMenuItem
+            // 
+            this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
+            this.настройкиToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.настройкиToolStripMenuItem.Text = "Настройки...";
+            // 
+            // определениеСтилейToolStripMenuItem
+            // 
+            this.определениеСтилейToolStripMenuItem.Name = "определениеСтилейToolStripMenuItem";
+            this.определениеСтилейToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.определениеСтилейToolStripMenuItem.Text = "Определение стилей...";
+            // 
+            // клавишиБыстрогоДоступаToolStripMenuItem
+            // 
+            this.клавишиБыстрогоДоступаToolStripMenuItem.Name = "клавишиБыстрогоДоступаToolStripMenuItem";
+            this.клавишиБыстрогоДоступаToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.клавишиБыстрогоДоступаToolStripMenuItem.Text = "Клавиши быстрого доступа...";
+            // 
+            // импортироватьToolStripMenuItem
+            // 
+            this.импортироватьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.импортироватьПлагиныToolStripMenuItem,
+            this.импортироватьТемуыToolStripMenuItem});
+            this.импортироватьToolStripMenuItem.Name = "импортироватьToolStripMenuItem";
+            this.импортироватьToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.импортироватьToolStripMenuItem.Text = "Импортировать";
+            // 
+            // редактКонтекстноеМенюToolStripMenuItem
+            // 
+            this.редактКонтекстноеМенюToolStripMenuItem.Name = "редактКонтекстноеМенюToolStripMenuItem";
+            this.редактКонтекстноеМенюToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.редактКонтекстноеМенюToolStripMenuItem.Text = "Редакт. Контекстное Меню";
+            // 
+            // импортироватьПлагиныToolStripMenuItem
+            // 
+            this.импортироватьПлагиныToolStripMenuItem.Name = "импортироватьПлагиныToolStripMenuItem";
+            this.импортироватьПлагиныToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.импортироватьПлагиныToolStripMenuItem.Text = "Импортировать Плагин(ы)";
+            // 
+            // импортироватьТемуыToolStripMenuItem
+            // 
+            this.импортироватьТемуыToolStripMenuItem.Name = "импортироватьТемуыToolStripMenuItem";
+            this.импортироватьТемуыToolStripMenuItem.Size = new System.Drawing.Size(223, 22);
+            this.импортироватьТемуыToolStripMenuItem.Text = "Импортировать Тему(ы)";
+            // 
+            // toolStripSeparator28
+            // 
+            this.toolStripSeparator28.Name = "toolStripSeparator28";
+            this.toolStripSeparator28.Size = new System.Drawing.Size(233, 6);
+            // 
+            // toolStripSeparator29
+            // 
+            this.toolStripSeparator29.Name = "toolStripSeparator29";
+            this.toolStripSeparator29.Size = new System.Drawing.Size(233, 6);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4156,6 +4236,16 @@
         private System.Windows.Forms.ToolStripMenuItem markdownpreinstalledToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem markdownpreinstalledDarkModeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem пользовательскийToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem опцииToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem настройкиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem определениеСтилейToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem клавишиБыстрогоДоступаToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator29;
+        private System.Windows.Forms.ToolStripMenuItem импортироватьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem импортироватьПлагиныToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem импортироватьТемуыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator28;
+        private System.Windows.Forms.ToolStripMenuItem редактКонтекстноеМенюToolStripMenuItem;
     }
 }
 
