@@ -17,5 +17,9 @@ namespace NotePad
             InitializeComponent();
         }
 
+        private void trimTrailingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

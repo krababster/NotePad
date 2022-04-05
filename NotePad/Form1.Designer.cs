@@ -499,6 +499,16 @@
             this.сгенерироватьToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.сгенерироватьИзФайловToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.сгенИзКопированногоВБуферToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.макросыToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.начатьЗаписьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.остановитьЗаписьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.воспроизвестиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.сохранитьЗаписанныйМакросToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.многократныйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.trimTrailingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.управлениеМакросамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator30 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator31 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -512,7 +522,8 @@
             this.кодировкиToolStripMenuItem,
             this.синтаксисыToolStripMenuItem,
             this.опцииToolStripMenuItem,
-            this.инструментыToolStripMenuItem});
+            this.инструментыToolStripMenuItem,
+            this.макросыToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(784, 24);
@@ -3841,6 +3852,75 @@
             this.сгенИзКопированногоВБуферToolStripMenuItem1.Size = new System.Drawing.Size(254, 22);
             this.сгенИзКопированногоВБуферToolStripMenuItem1.Text = "Сген. из копированного в буфер";
             // 
+            // макросыToolStripMenuItem
+            // 
+            this.макросыToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.начатьЗаписьToolStripMenuItem,
+            this.остановитьЗаписьToolStripMenuItem,
+            this.воспроизвестиToolStripMenuItem,
+            this.сохранитьЗаписанныйМакросToolStripMenuItem,
+            this.многократныйToolStripMenuItem,
+            this.toolStripSeparator30,
+            this.trimTrailingToolStripMenuItem,
+            this.toolStripSeparator31,
+            this.управлениеМакросамиToolStripMenuItem});
+            this.макросыToolStripMenuItem.Name = "макросыToolStripMenuItem";
+            this.макросыToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.макросыToolStripMenuItem.Text = "Макросы";
+            // 
+            // начатьЗаписьToolStripMenuItem
+            // 
+            this.начатьЗаписьToolStripMenuItem.Name = "начатьЗаписьToolStripMenuItem";
+            this.начатьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.начатьЗаписьToolStripMenuItem.Text = "Начать запись";
+            // 
+            // остановитьЗаписьToolStripMenuItem
+            // 
+            this.остановитьЗаписьToolStripMenuItem.Name = "остановитьЗаписьToolStripMenuItem";
+            this.остановитьЗаписьToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.остановитьЗаписьToolStripMenuItem.Text = "Остановить запись";
+            // 
+            // воспроизвестиToolStripMenuItem
+            // 
+            this.воспроизвестиToolStripMenuItem.Name = "воспроизвестиToolStripMenuItem";
+            this.воспроизвестиToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.воспроизвестиToolStripMenuItem.Text = "Воспроизвести";
+            // 
+            // сохранитьЗаписанныйМакросToolStripMenuItem
+            // 
+            this.сохранитьЗаписанныйМакросToolStripMenuItem.Name = "сохранитьЗаписанныйМакросToolStripMenuItem";
+            this.сохранитьЗаписанныйМакросToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.сохранитьЗаписанныйМакросToolStripMenuItem.Text = "Сохранить записанный макрос...";
+            // 
+            // многократныйToolStripMenuItem
+            // 
+            this.многократныйToolStripMenuItem.Name = "многократныйToolStripMenuItem";
+            this.многократныйToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.многократныйToolStripMenuItem.Text = "Многократный запуск...";
+            // 
+            // trimTrailingToolStripMenuItem
+            // 
+            this.trimTrailingToolStripMenuItem.Name = "trimTrailingToolStripMenuItem";
+            this.trimTrailingToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.trimTrailingToolStripMenuItem.Text = "Trim Trailing Space and Save";
+            this.trimTrailingToolStripMenuItem.Click += new System.EventHandler(this.trimTrailingToolStripMenuItem_Click);
+            // 
+            // управлениеМакросамиToolStripMenuItem
+            // 
+            this.управлениеМакросамиToolStripMenuItem.Name = "управлениеМакросамиToolStripMenuItem";
+            this.управлениеМакросамиToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.управлениеМакросамиToolStripMenuItem.Text = "Управление макросами...";
+            // 
+            // toolStripSeparator30
+            // 
+            this.toolStripSeparator30.Name = "toolStripSeparator30";
+            this.toolStripSeparator30.Size = new System.Drawing.Size(253, 6);
+            // 
+            // toolStripSeparator31
+            // 
+            this.toolStripSeparator31.Name = "toolStripSeparator31";
+            this.toolStripSeparator31.Size = new System.Drawing.Size(253, 6);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -4330,6 +4410,16 @@
         private System.Windows.Forms.ToolStripMenuItem сгенерироватьToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem сгенерироватьИзФайловToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem сгенИзКопированногоВБуферToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem макросыToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem начатьЗаписьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem остановитьЗаписьToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem воспроизвестиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem сохранитьЗаписанныйМакросToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem многократныйToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem trimTrailingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator30;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator31;
+        private System.Windows.Forms.ToolStripMenuItem управлениеМакросамиToolStripMenuItem;
     }
 }
 
