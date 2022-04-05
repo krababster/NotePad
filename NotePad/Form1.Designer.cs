@@ -517,6 +517,38 @@
             this.управлениеКомандамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator32 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator33 = new System.Windows.Forms.ToolStripSeparator();
+            this.плагиныToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mIMEToolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.converterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nppExportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.управлениеПлагинамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.открытьПапкуСПлагинамиToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.baseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64EncodeWithPfddingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64EncodeWithToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64EncodeByLineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64DecodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64DecodeStrictToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.base64DecodeByLineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quotedprintableEncodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.quotedprintableDecodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uRLEncodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fullURLEncodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uRLDecodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sAMLDecodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aSCIIHexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hexASCIIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.conversionPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editConfigurationFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aaboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToRTFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyRTFToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyHTMLToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.copyALLFormatsToClipboardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator34 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripSeparator35 = new System.Windows.Forms.ToolStripSeparator();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -532,10 +564,11 @@
             this.опцииToolStripMenuItem,
             this.инструментыToolStripMenuItem,
             this.макросыToolStripMenuItem,
-            this.запускToolStripMenuItem});
+            this.запускToolStripMenuItem,
+            this.плагиныToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1024, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -3983,11 +4016,236 @@
             this.toolStripSeparator33.Name = "toolStripSeparator33";
             this.toolStripSeparator33.Size = new System.Drawing.Size(277, 6);
             // 
+            // плагиныToolStripMenuItem
+            // 
+            this.плагиныToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mIMEToolsToolStripMenuItem,
+            this.converterToolStripMenuItem,
+            this.nppExportToolStripMenuItem,
+            this.toolStripSeparator34,
+            this.управлениеПлагинамиToolStripMenuItem,
+            this.toolStripSeparator35,
+            this.открытьПапкуСПлагинамиToolStripMenuItem});
+            this.плагиныToolStripMenuItem.Name = "плагиныToolStripMenuItem";
+            this.плагиныToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.плагиныToolStripMenuItem.Text = "Плагины";
+            // 
+            // mIMEToolsToolStripMenuItem
+            // 
+            this.mIMEToolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.baseToolStripMenuItem,
+            this.base64EncodeWithPfddingToolStripMenuItem,
+            this.base64EncodeWithToolStripMenuItem,
+            this.base64EncodeByLineToolStripMenuItem,
+            this.base64DecodeToolStripMenuItem,
+            this.base64DecodeStrictToolStripMenuItem,
+            this.base64DecodeByLineToolStripMenuItem,
+            this.quotedprintableEncodeToolStripMenuItem,
+            this.quotedprintableDecodeToolStripMenuItem,
+            this.uRLEncodeToolStripMenuItem,
+            this.fullURLEncodeToolStripMenuItem,
+            this.uRLDecodeToolStripMenuItem,
+            this.sAMLDecodeToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.mIMEToolsToolStripMenuItem.Name = "mIMEToolsToolStripMenuItem";
+            this.mIMEToolsToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.mIMEToolsToolStripMenuItem.Text = "MIME Tools";
+            // 
+            // converterToolStripMenuItem
+            // 
+            this.converterToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aSCIIHexToolStripMenuItem,
+            this.hexASCIIToolStripMenuItem,
+            this.conversionPanelToolStripMenuItem,
+            this.editConfigurationFileToolStripMenuItem,
+            this.aaboutToolStripMenuItem});
+            this.converterToolStripMenuItem.Name = "converterToolStripMenuItem";
+            this.converterToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.converterToolStripMenuItem.Text = "Converter";
+            // 
+            // nppExportToolStripMenuItem
+            // 
+            this.nppExportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exportToRTFToolStripMenuItem,
+            this.exportToHTMLToolStripMenuItem,
+            this.copyRTFToClipboardToolStripMenuItem,
+            this.copyHTMLToClipboardToolStripMenuItem,
+            this.copyALLFormatsToClipboardToolStripMenuItem});
+            this.nppExportToolStripMenuItem.Name = "nppExportToolStripMenuItem";
+            this.nppExportToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.nppExportToolStripMenuItem.Text = "NppExport";
+            // 
+            // управлениеПлагинамиToolStripMenuItem
+            // 
+            this.управлениеПлагинамиToolStripMenuItem.Name = "управлениеПлагинамиToolStripMenuItem";
+            this.управлениеПлагинамиToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.управлениеПлагинамиToolStripMenuItem.Text = "Управление плагинами...";
+            // 
+            // открытьПапкуСПлагинамиToolStripMenuItem
+            // 
+            this.открытьПапкуСПлагинамиToolStripMenuItem.Name = "открытьПапкуСПлагинамиToolStripMenuItem";
+            this.открытьПапкуСПлагинамиToolStripMenuItem.Size = new System.Drawing.Size(213, 22);
+            this.открытьПапкуСПлагинамиToolStripMenuItem.Text = "Открыть папку плагинов";
+            // 
+            // baseToolStripMenuItem
+            // 
+            this.baseToolStripMenuItem.Name = "baseToolStripMenuItem";
+            this.baseToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.baseToolStripMenuItem.Text = "Base64 Encode";
+            // 
+            // base64EncodeWithPfddingToolStripMenuItem
+            // 
+            this.base64EncodeWithPfddingToolStripMenuItem.Name = "base64EncodeWithPfddingToolStripMenuItem";
+            this.base64EncodeWithPfddingToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.base64EncodeWithPfddingToolStripMenuItem.Text = "Base64 Encode with pfdding";
+            // 
+            // base64EncodeWithToolStripMenuItem
+            // 
+            this.base64EncodeWithToolStripMenuItem.Name = "base64EncodeWithToolStripMenuItem";
+            this.base64EncodeWithToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.base64EncodeWithToolStripMenuItem.Text = "Base64 Encode with Unix EOL";
+            // 
+            // base64EncodeByLineToolStripMenuItem
+            // 
+            this.base64EncodeByLineToolStripMenuItem.Name = "base64EncodeByLineToolStripMenuItem";
+            this.base64EncodeByLineToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.base64EncodeByLineToolStripMenuItem.Text = "Base64 Encode by line";
+            // 
+            // base64DecodeToolStripMenuItem
+            // 
+            this.base64DecodeToolStripMenuItem.Name = "base64DecodeToolStripMenuItem";
+            this.base64DecodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.base64DecodeToolStripMenuItem.Text = "Base64 Decode";
+            // 
+            // base64DecodeStrictToolStripMenuItem
+            // 
+            this.base64DecodeStrictToolStripMenuItem.Name = "base64DecodeStrictToolStripMenuItem";
+            this.base64DecodeStrictToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.base64DecodeStrictToolStripMenuItem.Text = "Base64 Decode strict";
+            // 
+            // base64DecodeByLineToolStripMenuItem
+            // 
+            this.base64DecodeByLineToolStripMenuItem.Name = "base64DecodeByLineToolStripMenuItem";
+            this.base64DecodeByLineToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.base64DecodeByLineToolStripMenuItem.Text = "Base64 Decode by line";
+            // 
+            // quotedprintableEncodeToolStripMenuItem
+            // 
+            this.quotedprintableEncodeToolStripMenuItem.Name = "quotedprintableEncodeToolStripMenuItem";
+            this.quotedprintableEncodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.quotedprintableEncodeToolStripMenuItem.Text = "Quoted-printable Encode";
+            // 
+            // quotedprintableDecodeToolStripMenuItem
+            // 
+            this.quotedprintableDecodeToolStripMenuItem.Name = "quotedprintableDecodeToolStripMenuItem";
+            this.quotedprintableDecodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.quotedprintableDecodeToolStripMenuItem.Text = "Quoted-printable Decode";
+            // 
+            // uRLEncodeToolStripMenuItem
+            // 
+            this.uRLEncodeToolStripMenuItem.Name = "uRLEncodeToolStripMenuItem";
+            this.uRLEncodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.uRLEncodeToolStripMenuItem.Text = "URL Encode";
+            // 
+            // fullURLEncodeToolStripMenuItem
+            // 
+            this.fullURLEncodeToolStripMenuItem.Name = "fullURLEncodeToolStripMenuItem";
+            this.fullURLEncodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.fullURLEncodeToolStripMenuItem.Text = "Full URL Encode";
+            // 
+            // uRLDecodeToolStripMenuItem
+            // 
+            this.uRLDecodeToolStripMenuItem.Name = "uRLDecodeToolStripMenuItem";
+            this.uRLDecodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.uRLDecodeToolStripMenuItem.Text = "URL Decode";
+            // 
+            // sAMLDecodeToolStripMenuItem
+            // 
+            this.sAMLDecodeToolStripMenuItem.Name = "sAMLDecodeToolStripMenuItem";
+            this.sAMLDecodeToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.sAMLDecodeToolStripMenuItem.Text = "SAML Decode";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(229, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // aSCIIHexToolStripMenuItem
+            // 
+            this.aSCIIHexToolStripMenuItem.Name = "aSCIIHexToolStripMenuItem";
+            this.aSCIIHexToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aSCIIHexToolStripMenuItem.Text = "ASCII -> HEX";
+            // 
+            // hexASCIIToolStripMenuItem
+            // 
+            this.hexASCIIToolStripMenuItem.Name = "hexASCIIToolStripMenuItem";
+            this.hexASCIIToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.hexASCIIToolStripMenuItem.Text = "HEX -> ASCII";
+            // 
+            // conversionPanelToolStripMenuItem
+            // 
+            this.conversionPanelToolStripMenuItem.Name = "conversionPanelToolStripMenuItem";
+            this.conversionPanelToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.conversionPanelToolStripMenuItem.Text = "Conversion Panel";
+            // 
+            // editConfigurationFileToolStripMenuItem
+            // 
+            this.editConfigurationFileToolStripMenuItem.Name = "editConfigurationFileToolStripMenuItem";
+            this.editConfigurationFileToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.editConfigurationFileToolStripMenuItem.Text = "Edit Configuration File";
+            // 
+            // aaboutToolStripMenuItem
+            // 
+            this.aaboutToolStripMenuItem.Name = "aaboutToolStripMenuItem";
+            this.aaboutToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.aaboutToolStripMenuItem.Text = "Aabout";
+            // 
+            // exportToRTFToolStripMenuItem
+            // 
+            this.exportToRTFToolStripMenuItem.Name = "exportToRTFToolStripMenuItem";
+            this.exportToRTFToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.exportToRTFToolStripMenuItem.Text = "Export to RTF";
+            // 
+            // exportToHTMLToolStripMenuItem
+            // 
+            this.exportToHTMLToolStripMenuItem.Name = "exportToHTMLToolStripMenuItem";
+            this.exportToHTMLToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.exportToHTMLToolStripMenuItem.Text = "Export to HTML";
+            // 
+            // copyRTFToClipboardToolStripMenuItem
+            // 
+            this.copyRTFToClipboardToolStripMenuItem.Name = "copyRTFToClipboardToolStripMenuItem";
+            this.copyRTFToClipboardToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.copyRTFToClipboardToolStripMenuItem.Text = "Copy RTF to clipboard";
+            // 
+            // copyHTMLToClipboardToolStripMenuItem
+            // 
+            this.copyHTMLToClipboardToolStripMenuItem.Name = "copyHTMLToClipboardToolStripMenuItem";
+            this.copyHTMLToClipboardToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.copyHTMLToClipboardToolStripMenuItem.Text = "Copy HTML to clipboard";
+            // 
+            // copyALLFormatsToClipboardToolStripMenuItem
+            // 
+            this.copyALLFormatsToClipboardToolStripMenuItem.Name = "copyALLFormatsToClipboardToolStripMenuItem";
+            this.copyALLFormatsToClipboardToolStripMenuItem.Size = new System.Drawing.Size(236, 22);
+            this.copyALLFormatsToClipboardToolStripMenuItem.Text = "Copy ALL formats to clipboard";
+            // 
+            // toolStripSeparator34
+            // 
+            this.toolStripSeparator34.Name = "toolStripSeparator34";
+            this.toolStripSeparator34.Size = new System.Drawing.Size(210, 6);
+            // 
+            // toolStripSeparator35
+            // 
+            this.toolStripSeparator35.Name = "toolStripSeparator35";
+            this.toolStripSeparator35.Size = new System.Drawing.Size(210, 6);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.ClientSize = new System.Drawing.Size(1024, 493);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -4490,6 +4748,38 @@
         private System.Windows.Forms.ToolStripMenuItem openSelectedFilePathToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator32;
         private System.Windows.Forms.ToolStripMenuItem управлениеКомандамиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem плагиныToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mIMEToolsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem baseToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64EncodeWithPfddingToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64EncodeWithToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64EncodeByLineToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64DecodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64DecodeStrictToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem base64DecodeByLineToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quotedprintableEncodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem quotedprintableDecodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uRLEncodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fullURLEncodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uRLDecodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sAMLDecodeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem converterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aSCIIHexToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hexASCIIToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nppExportToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem управлениеПлагинамиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem открытьПапкуСПлагинамиToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem conversionPanelToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem editConfigurationFileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aaboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportToRTFToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportToHTMLToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copyRTFToClipboardToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copyHTMLToClipboardToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem copyALLFormatsToClipboardToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator34;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator35;
     }
 }
 
