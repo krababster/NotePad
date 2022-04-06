@@ -1,4 +1,6 @@
-﻿namespace NotePad
+﻿using NotePad.Forms.Controls;
+
+namespace NotePad
 {
     partial class Form1
     {
@@ -581,31 +583,24 @@
             this.button28 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.button25 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button23 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.button16 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -613,6 +608,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -4670,14 +4673,6 @@
             this.toolTip1.SetToolTip(this.button26, "Начать запись");
             this.button26.UseVisualStyleBackColor = true;
             // 
-            // label7
-            // 
-            this.label7.Image = global::NotePad.Properties.Resources.lbl7;
-            this.label7.Location = new System.Drawing.Point(747, 27);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(8, 25);
-            this.label7.TabIndex = 33;
-            // 
             // button25
             // 
             this.button25.Image = global::NotePad.Properties.Resources.monitoring;
@@ -4738,14 +4733,6 @@
             this.toolTip1.SetToolTip(this.button20, "Задать свой синтаксис...");
             this.button20.UseVisualStyleBackColor = true;
             // 
-            // label6
-            // 
-            this.label6.Image = global::NotePad.Properties.Resources.lbl6;
-            this.label6.Location = new System.Drawing.Point(504, 27);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(8, 25);
-            this.label6.TabIndex = 26;
-            // 
             // button19
             // 
             this.button19.Image = global::NotePad.Properties.Resources.lineWrap;
@@ -4776,15 +4763,6 @@
             this.toolTip1.SetToolTip(this.button17, "Синхрониз. Вертикальную прокрутку");
             this.button17.UseVisualStyleBackColor = true;
             // 
-            // label5
-            // 
-            this.label5.Image = global::NotePad.Properties.Resources.lbl5;
-            this.label5.Location = new System.Drawing.Point(444, 27);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(7, 25);
-            this.label5.TabIndex = 22;
-            this.label5.Text = "label5";
-            // 
             // button16
             // 
             this.button16.Image = global::NotePad.Properties.Resources.smaller;
@@ -4804,14 +4782,6 @@
             this.button15.TabIndex = 20;
             this.toolTip1.SetToolTip(this.button15, "Крупнее");
             this.button15.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.Image = global::NotePad.Properties.Resources.lbl4;
-            this.label4.Location = new System.Drawing.Point(383, 27);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(8, 25);
-            this.label4.TabIndex = 19;
             // 
             // button14
             // 
@@ -4834,14 +4804,6 @@
             this.toolTip1.SetToolTip(this.button13, "Найти...");
             this.button13.UseVisualStyleBackColor = true;
             // 
-            // label3
-            // 
-            this.label3.Image = global::NotePad.Properties.Resources.lbl31;
-            this.label3.Location = new System.Drawing.Point(325, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(5, 25);
-            this.label3.TabIndex = 16;
-            // 
             // button9
             // 
             this.button9.Image = global::NotePad.Properties.Resources.repeat;
@@ -4851,15 +4813,6 @@
             this.button9.TabIndex = 15;
             this.toolTip1.SetToolTip(this.button9, "Повтор");
             this.button9.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.Image = global::NotePad.Properties.Resources.lbl21;
-            this.label2.Location = new System.Drawing.Point(267, 27);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(5, 25);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "label2";
             // 
             // button12
             // 
@@ -4900,15 +4853,6 @@
             this.button8.TabIndex = 9;
             this.toolTip1.SetToolTip(this.button8, "Вырезать");
             this.button8.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            this.label1.Image = global::NotePad.Properties.Resources.lbl1;
-            this.label1.Location = new System.Drawing.Point(181, 27);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(7, 25);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "label1";
             // 
             // button7
             // 
@@ -4981,11 +4925,80 @@
             this.toolTip1.SetToolTip(this.button1, "Новый");
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // label7
+            // 
+            this.label7.Image = global::NotePad.Properties.Resources.lbl7;
+            this.label7.Location = new System.Drawing.Point(747, 27);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(8, 25);
+            this.label7.TabIndex = 33;
+            // 
+            // label6
+            // 
+            this.label6.Image = global::NotePad.Properties.Resources.lbl6;
+            this.label6.Location = new System.Drawing.Point(504, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(8, 25);
+            this.label6.TabIndex = 26;
+            // 
+            // label5
+            // 
+            this.label5.Image = global::NotePad.Properties.Resources.lbl5;
+            this.label5.Location = new System.Drawing.Point(444, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(7, 25);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "label5";
+            // 
+            // label4
+            // 
+            this.label4.Image = global::NotePad.Properties.Resources.lbl4;
+            this.label4.Location = new System.Drawing.Point(383, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(8, 25);
+            this.label4.TabIndex = 19;
+            // 
+            // label3
+            // 
+            this.label3.Image = global::NotePad.Properties.Resources.lbl31;
+            this.label3.Location = new System.Drawing.Point(325, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(5, 25);
+            this.label3.TabIndex = 16;
+            // 
+            // label2
+            // 
+            this.label2.Image = global::NotePad.Properties.Resources.lbl21;
+            this.label2.Location = new System.Drawing.Point(267, 27);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(5, 25);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "label2";
+            // 
+            // label1
+            // 
+            this.label1.Image = global::NotePad.Properties.Resources.lbl1;
+            this.label1.Location = new System.Drawing.Point(181, 27);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(7, 25);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "label1";
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Location = new System.Drawing.Point(0, 55);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1680, 1050);
+            this.tabControl1.TabIndex = 41;
+            this.tabControl1.Controls.Add(new My_tab("Новый"));
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(972, 504);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.button32);
             this.Controls.Add(this.button31);
             this.Controls.Add(this.button30);
@@ -5622,6 +5635,7 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button button31;
         private System.Windows.Forms.Button button32;
+        private System.Windows.Forms.TabControl tabControl1;
     }
 }
 
