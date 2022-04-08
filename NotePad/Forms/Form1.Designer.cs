@@ -605,9 +605,9 @@ namespace NotePad
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.saveBtn = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.newButton = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -4919,15 +4919,16 @@ namespace NotePad
             this.toolTip1.SetToolTip(this.button4, "Сохранить все");
             this.button4.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // saveBtn
             // 
-            this.button3.Image = global::NotePad.Properties.Resources.save;
-            this.button3.Location = new System.Drawing.Point(52, 27);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(25, 25);
-            this.button3.TabIndex = 3;
-            this.toolTip1.SetToolTip(this.button3, "Сохранить");
-            this.button3.UseVisualStyleBackColor = true;
+            this.saveBtn.Image = global::NotePad.Properties.Resources.save;
+            this.saveBtn.Location = new System.Drawing.Point(52, 27);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(25, 25);
+            this.saveBtn.TabIndex = 3;
+            this.toolTip1.SetToolTip(this.saveBtn, "Сохранить");
+            this.saveBtn.UseVisualStyleBackColor = true;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
             // 
             // button2
             // 
@@ -4939,15 +4940,16 @@ namespace NotePad
             this.toolTip1.SetToolTip(this.button2, "Открыть");
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // newButton
             // 
-            this.button1.Image = global::NotePad.Properties.Resources._new;
-            this.button1.Location = new System.Drawing.Point(0, 27);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(25, 25);
-            this.button1.TabIndex = 1;
-            this.toolTip1.SetToolTip(this.button1, "Новый");
-            this.button1.UseVisualStyleBackColor = true;
+            this.newButton.Image = global::NotePad.Properties.Resources._new;
+            this.newButton.Location = new System.Drawing.Point(0, 27);
+            this.newButton.Name = "newButton";
+            this.newButton.Size = new System.Drawing.Size(25, 25);
+            this.newButton.TabIndex = 1;
+            this.toolTip1.SetToolTip(this.newButton, "Новый");
+            this.newButton.UseVisualStyleBackColor = true;
+            this.newButton.Click += new System.EventHandler(this.newButton_Click);
             // 
             // label7
             // 
@@ -5191,9 +5193,9 @@ namespace NotePad
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.newButton);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -5752,9 +5754,9 @@ namespace NotePad
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator38;
         private System.Windows.Forms.ToolStripMenuItem отладочнаяИнформацияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem оПорграммеToolStripMenuItem;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button newButton;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button saveBtn;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
